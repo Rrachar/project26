@@ -1,4 +1,4 @@
-package atu.ie.oopproject26.exception;
+package exception;
 
 public class GlobalExceptionHandler {
 }
