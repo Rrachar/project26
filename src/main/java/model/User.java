@@ -1,4 +1,4 @@
-package atu.ie.oopproject26.model;
+package model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Email;

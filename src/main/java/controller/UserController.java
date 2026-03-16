@@ -1,7 +1,7 @@
-package atu.ie.oopproject26.controller;
+package controller;
 
-import atu.ie.oopproject26.model.User;
-import service;
+import model.User;
+import service.UserService;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

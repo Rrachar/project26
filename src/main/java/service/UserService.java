@@ -1,6 +1,6 @@
-package atu.ie.oopproject26.service;
+package service;
 
-import atu.ie.oopproject26.model.User;
+import model.User;
 import org.springframework.stereotype.Service;
 
 
@@ -14,7 +14,8 @@ public class UserService {
     private long nextId = 1;
 
     public User createUser(User user) {
-        user.setId(nextId++);
+       // user.setId(nextId++);//
+        user.setId(Long.valueOf(nextId++));
         users.add(user);
         return user;
     }
